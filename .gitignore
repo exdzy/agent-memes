@@ -1,0 +1,27 @@
+# secrets: API keys live in env vars or ~/.config/agent-memes/config.toml, never here
+.env
+.env.*
+!.env.example
+*.key
+config.toml
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# media produced while testing
+*.mp4
+*.mov
+*.webm
+*.gif
+*.wav
+/assets/
+/export/
+/out/
+.DS_Store

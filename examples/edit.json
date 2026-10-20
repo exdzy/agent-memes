@@ -1,0 +1,22 @@
+{
+  "name": "Reaction edit",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "tracks": [
+    {
+      "name": "V1",
+      "clips": [
+        {"src": "./footage/talk.mp4", "in": 0, "out": 12.5},
+        {"src": "vlipsy:V1iupR0X", "name": "this is fine"},
+        {"src": "./footage/talk.mp4", "in": 12.5, "out": 40}
+      ]
+    },
+    {
+      "name": "V2",
+      "clips": [
+        {"src": "vlipsy:8WTyZTC5", "at": 30, "duration": 3}
+      ]
+    }
+  ]
+}

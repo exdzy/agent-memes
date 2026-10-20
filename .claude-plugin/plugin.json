@@ -1,0 +1,37 @@
+{
+  "name": "agent-memes",
+  "version": "0.1.0",
+  "description": "Meme / reaction video clips for agents: search (Vlipsy API, bring your own key) or local folders, preview, fetch with credits, and drop into ffmpeg renders, NLE timelines (OTIO, FCPXML, Premiere XML, EDL), Remotion or HyperFrames.",
+  "author": {
+    "name": "agent-memes contributors"
+  },
+  "homepage": "https://github.com/exdzy/agent-memes",
+  "repository": "https://github.com/exdzy/agent-memes",
+  "license": "MIT",
+  "keywords": [
+    "memes",
+    "video",
+    "editing",
+    "mcp",
+    "ffmpeg",
+    "otio",
+    "fcpxml",
+    "premiere",
+    "resolve"
+  ],
+  "mcpServers": {
+    "agent-memes": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "agent-memes",
+        "mcp"
+      ],
+      "env": {
+        "VLIPSY_API_KEY": "${VLIPSY_API_KEY:-}",
+        "AGENT_MEMES_LOCAL_DIRS": "${AGENT_MEMES_LOCAL_DIRS:-}"
+      }
+    }
+  }
+}

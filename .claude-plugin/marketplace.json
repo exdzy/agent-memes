@@ -1,0 +1,12 @@
+{
+  "name": "agent-memes",
+  "description": "agent-memes: meme video clips for AI agents and any editing workflow.",
+  "owner": { "name": "agent-memes contributors" },
+  "plugins": [
+    {
+      "name": "agent-memes",
+      "source": "./",
+      "description": "MCP server + skill for finding meme clips and integrating them into video edits."
+    }
+  ]
+}

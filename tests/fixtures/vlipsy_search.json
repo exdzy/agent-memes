@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "V1iupR0X",
+      "title": "This is fine",
+      "from": "The IT Crowd",
+      "tags": ["this is fine", "fine", "this is okay", "the it crowd"],
+      "created": "2018-02-23T02:59:10.226Z",
+      "rating": "PG",
+      "slug": "the-it-crowd-this-is-fine-V1iupR0X",
+      "duration": 9.2,
+      "media": {
+        "mp4": {
+          "url": "https://media.vlipsy.com/vlips/V1iupR0X/480p.mp4",
+          "watermark": "https://media.vlipsy.com/vlips/V1iupR0X/480p-watermark.mp4",
+          "width": 854,
+          "height": 480
+        },
+        "mp4_small": {
+          "url": "https://media.vlipsy.com/vlips/V1iupR0X/360p.mp4",
+          "watermark": "https://media.vlipsy.com/vlips/V1iupR0X/360p-watermark.mp4",
+          "width": 640,
+          "height": 360
+        },
+        "preview": {"url": "https://media.vlipsy.com/vlips/V1iupR0X/preview.jpg", "width": 1280, "height": 720},
+        "preview_small": {
+          "url": "https://media.vlipsy.com/vlips/V1iupR0X/preview-small.jpg",
+          "gif": "https://media.vlipsy.com/vlips/V1iupR0X/preview-small.gif",
+          "width": 256,
+          "height": 144
+        }
+      }
+    },
+    {
+      "id": "8WTyZTC5",
+      "title": "Vacuum fire",
+      "from": "Idiots",
+      "tags": ["this is fine", "vacuum", "fire", "fire safety", "danger"],
+      "rating": "PG",
+      "slug": "idiots-vacuum-fire-8WTyZTC5",
+      "duration": 9.009,
+      "media": {
+        "mp4": {
+          "url": "https://media.vlipsy.com/vlips/8WTyZTC5/480p.mp4",
+          "watermark": "https://media.vlipsy.com/vlips/8WTyZTC5/480p-watermark.mp4",
+          "width": 854,
+          "height": 480
+        }
+      }
+    }
+  ],
+  "pagination": {"offset": 0, "count": 2, "total_count": 56}
+}

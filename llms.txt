@@ -1,0 +1,21 @@
+# agent-memes
+
+> Meme / reaction video clips for AI agents. A CLI, an MCP server and a Python library: search clips through
+> the official Vlipsy API (bring your own key) or local folders, preview them as contact sheets, fetch them with
+> attribution, and integrate them with ffmpeg renders, NLE timelines (OTIO, FCPXML, Premiere XML, EDL) or code
+> snippets (Remotion, HyperFrames, MoviePy). Zero dependencies besides ffmpeg.
+
+## Docs
+
+- [README](https://github.com/exdzy/agent-memes/blob/main/README.md): install, MCP setup, CLI, workflows
+- [Agent skill](https://github.com/exdzy/agent-memes/blob/main/skills/agent-memes/SKILL.md): how an agent should use it
+- [Example timeline spec](https://github.com/exdzy/agent-memes/blob/main/examples/edit.json)
+
+## Quick reference
+
+- Run: `uvx --from git+https://github.com/exdzy/agent-memes agent-memes <command>`
+- MCP: `agent-memes mcp` (stdio). Tools: meme_suggest, meme_search, meme_trending, meme_playlists,
+  meme_playlist, meme_info, meme_preview, meme_fetch, meme_convert, meme_insert, meme_timeline, meme_snippet,
+  meme_credits, meme_doctor
+- Output: `{"ok": true, "data": ...}` or `{"ok": false, "error": {"code", "message", "hint"}}`
+- Key: `VLIPSY_API_KEY` env var (never committed). Local-only mode: `AGENT_MEMES_LOCAL_DIRS`
